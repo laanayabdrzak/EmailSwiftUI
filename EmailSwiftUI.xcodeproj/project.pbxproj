@@ -11,6 +11,8 @@
 		1925D7AC2B93A5D900F14788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D7AB2B93A5D900F14788 /* ContentView.swift */; };
 		1925D7AE2B93A5DE00F14788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D7AD2B93A5DE00F14788 /* Assets.xcassets */; };
 		1925D7B22B93A5DE00F14788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D7B12B93A5DE00F14788 /* Preview Assets.xcassets */; };
+		1925D7B92B93A61A00F14788 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D7B82B93A61A00F14788 /* ViewModel.swift */; };
+		1925D7BB2B93A64900F14788 /* OpenURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D7BA2B93A64900F14788 /* OpenURLProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1925D7AD2B93A5DE00F14788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1925D7AF2B93A5DE00F14788 /* EmailSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmailSwiftUI.entitlements; sourceTree = "<group>"; };
 		1925D7B12B93A5DE00F14788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1925D7B82B93A61A00F14788 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1925D7BA2B93A64900F14788 /* OpenURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenURLProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				1925D7A92B93A5D900F14788 /* EmailSwiftUIApp.swift */,
 				1925D7AB2B93A5D900F14788 /* ContentView.swift */,
+				1925D7B82B93A61A00F14788 /* ViewModel.swift */,
+				1925D7BA2B93A64900F14788 /* OpenURLProtocol.swift */,
 				1925D7AD2B93A5DE00F14788 /* Assets.xcassets */,
 				1925D7AF2B93A5DE00F14788 /* EmailSwiftUI.entitlements */,
 				1925D7B02B93A5DE00F14788 /* Preview Content */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1925D7AC2B93A5D900F14788 /* ContentView.swift in Sources */,
+				1925D7B92B93A61A00F14788 /* ViewModel.swift in Sources */,
 				1925D7AA2B93A5D900F14788 /* EmailSwiftUIApp.swift in Sources */,
+				1925D7BB2B93A64900F14788 /* OpenURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

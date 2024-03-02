@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel: ViewModel
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Click me to email", action: {
+                viewModel.emailWithSubjectAndBody()
+            })
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(viewModel: ViewModel())
 }
